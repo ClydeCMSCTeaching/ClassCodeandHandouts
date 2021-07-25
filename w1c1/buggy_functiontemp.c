@@ -1,4 +1,5 @@
-/* singlemaintemp.c
+/* buggy_singlemaintemp.c
+ * THIS PROGRAM CONTAINS BUGS!!!!!!
  * a basic c program which converts a user input
  * Celsius temperature to a F temperature.
  */
