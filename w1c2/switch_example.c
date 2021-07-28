@@ -35,10 +35,12 @@ unsigned int printWeekday(char daycode) {
         case 'S':
         case 's':
                 printf("Saturday\n");
+                break;
             
         case 'U':
         case 'u':
                 printf("Sunday\n");
+                break;
 
         default: // no char matches, so there is an error
                 return 1;
