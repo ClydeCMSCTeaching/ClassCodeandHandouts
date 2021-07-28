@@ -3,7 +3,7 @@
 In general, I will add a readme to the class files with a general outline of what we discussed. You ought to watch the lectures or attend however. 
 
 Additional readings (not required):
-https://publications.gbdirect.co.uk//c_book/ Chapter 1
+https://publications.gbdirect.co.uk//c_book/ Chapter 1 and 2
 
 ## Lecture 1
 Overview of c.  A few first programs.
