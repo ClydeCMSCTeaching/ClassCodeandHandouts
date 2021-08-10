@@ -13,9 +13,11 @@ list* createLinkedList(elem item) {
     list* node = (list*) malloc(sizeof(list));
     node->item = item;
     node->next = NULL;
+
+    return node;
 }
 
-list* destroyLinkedList(list *start) {
+void destroyLinkedList(list *start) {
     list *pos = start;
     list *prev = pos;
     while(pos != NULL) {
@@ -75,7 +77,6 @@ int main() {
     appendList(start, 1);
     appendList(start, 10);
     appendList(start, 100);
-
 
     list* whereIsThe10Node = findList(start, 10);
 
